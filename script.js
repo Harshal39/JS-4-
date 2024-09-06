@@ -114,3 +114,26 @@ console.log(someArray); //Output will be in boolean form
 
 //In map(), filter(), findArrayIndex(), findArrayElement() we can use callback function method as used in reduce(), some() etc.
 
+
+/*
+forEach():
+Iterates over elements.
+Does not return a new array or any value (returns undefined).
+Used for performing side effects (e.g., logging, modifying external variables).
+
+map():
+Transforms each element in the array.
+Returns a new array with the transformed elements.
+Used when you need a new array based on the original array with modified values.
+
+filter():
+Filters elements based on a condition.
+Returns a new array with elements that pass the test.
+Used when you need to remove certain elements based on a condition.
+
+When to Use Which:
+Use **forEach()** when you need to perform an action on each element without needing to create a new array.
+Use **map()** when you need to transform each element and create a new array with these transformed elements.
+Use **filter()** when you need to select elements that meet a certain condition and create a new array with these elements.
+
+*/
