@@ -86,7 +86,7 @@ console.log(total); //Here array elements will be converted into single element 
 
 /* For splice() method 
 array.splice(indexNumber, number of elements to be removed, new elements to be added);
-Slice method updates existing array and does not return new array.
+Splice method updates existing array and does not return new array.
 */
 let splicedArray = array.splice(2,3,11,12);
 console.log(splicedArray); //It will show the removed array
